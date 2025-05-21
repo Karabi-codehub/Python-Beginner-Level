@@ -1,0 +1,8 @@
+Problem-3: Find Duplicates in a List
+You’re given a user-uploaded list of tags. Identify duplicates for suggestion cleanup.
+
+Input: ["ai", "ml", "python", "ml", "dl", "ai"]
+
+Output: ["ml", "ai"]
+
+Hint: Use a dictionary or set to track seen elements.
