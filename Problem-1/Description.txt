@@ -1,0 +1,45 @@
+﻿🔁 Reversing a String Without Slicing:
+
+Without slicing, we can reverse a string by using a loop. Here’s an example:
+
+word = "cat"
+new_word = ""
+
+for letter in word:
+    new_word = letter + new_word
+print(new_word) 
+
+Output: tac
+
+How it works:
+    • Start with an empty string ""
+    • 
+    • Take each character from the original string and add it to the front of the new string
+      
+letter
+new_word
+'c'
+"c"
+'a'
+"a" + "c" = "ac"
+'t'
+"t" + "ac" = "tac"
+
+
+🔁 Reversing a String With Slicing:
+
+word = "cat"
+print(word[: : -1])
+
+Output: tac
+
+Index:   0   1   2
+Letter: 'd' 'o' 'g'
+
+How it works:
+    • word[: :-1]
+      word[start : stop : step]
+      
+    • Starting from the end 't', then move backward one step at a time: 't' → 'a' → 'c'
+    • -1 means "go backward" . It reads the letters from end to start
+      
