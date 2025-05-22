@@ -1,0 +1,8 @@
+Problem-5: Flatten a Nested List
+You are given a nested list of elements (e.g., UI config data). Flatten it into a single-level list.
+
+-   **Input**: `[1, [2, 3], [4, [5]]]`
+    
+-   **Output**: `[1, 2, 3, 4, 5]`
+    
+-   **Hint**: Use recursion to handle sublists.
