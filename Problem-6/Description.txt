@@ -1,0 +1,19 @@
+﻿✅ What .title() Does:
+
+The built-in .title() method in Python capitalizes the first letter of each word in a string and converts the rest of the letters to lowercase.
+
+text = "hello PYTHON world"
+print(text.title())  # Output: "Hello Python World"
+
+🧠 .title() works — but not always how you expect!
+    1. It capitalizes the first letter of each word, 
+    2. but it also makes the rest of the word lowercase, which can mess up names, abbreviations, or acronyms.
+       
+✅ What We Use Instead
+
+We manually:
+    1. Split the sentence into words using .split()
+    2. Capitalize the first letter of each word with word[0].upper()
+    3. Add the rest of the word as it is with word[1:]
+    4. Join the words back together with spaces using ' '.join(...)
+

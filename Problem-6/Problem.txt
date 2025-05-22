@@ -1,0 +1,8 @@
+Problem-6: Capitalize First Letter of Each Word
+Build a custom title formatter that capitalizes the first letter of each word without using .title().
+
+Input: "python for web developers"
+
+Output: "Python For Web Developers"
+
+Hint: Use .split() and loop through each word.
