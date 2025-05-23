@@ -1,0 +1,8 @@
+Problem-7: Find Missing Number in a Sequence
+You received log files indexed from 1 to n. One log is missing. Find it.
+
+Input: [1, 2, 4, 5]
+
+Output: 3
+
+Hint: Use arithmetic formula for sum of n numbers.
