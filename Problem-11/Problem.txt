@@ -1,0 +1,8 @@
+Problem-11: Check if a Number is Prime
+Write a function to check if a number is prime, useful in some encryption schemes.
+
+Input: 29
+
+Output: True
+
+Hint: Check divisibility from 2 to sqrt(n).

@@ -1,0 +1,24 @@
+﻿🔍 Why check from 2 up to √n to test if a number is prime?
+If n has a factor larger than √n,
+then it must have a matching factor smaller than √n.
+Example:
+Let’s take n = 36
+Its factors are:
+    • (2 × 18)
+    • (3 × 12)
+    • (4 × 9)
+    • (6 × 6) ← square root
+    • (9 × 4)
+    • (12 × 3)
+    • (18 × 2)
+Notice something?
+Whenever there's a big factor (like 18), it's paired with a smaller factor (like 2).
+And that smaller factor is less than or equal to √36 = 6.
+we’re guaranteed there are no bigger factors either —
+because they would have shown up as a pair with a smaller one.
+You only need to check from 2 up to √n because:
+    • If n is divisible by anything bigger than √n,
+    • It’s also divisible by something smaller than √n.
+So if you don’t find a divisor in that range, n is prime.
+
+
