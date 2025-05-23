@@ -1,0 +1,8 @@
+Problem-10: Sum of Digits of an Integer
+For a gamification feature, sum the digits of a user’s ID to generate a unique color code.
+
+Input: 9875
+
+Output: 29
+
+Hint: Use // and % or string conversion.

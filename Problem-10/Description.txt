@@ -1,0 +1,35 @@
+﻿1. Using Mathematical Operations (// and %)
+✅ How it works:
+    • % 10: Gets the last digit
+    • // 10: Removes the last digit
+    • Loop until the number becomes 0
+📌 Code:
+n = 9875
+total = 0
+while n > 0:
+    total += n % 10
+    n = n // 10
+print(total)
+
+2. Using String Conversion and Loop
+✅ How it works:
+    • Convert number to string
+    • Loop through each character
+    • Convert each digit back to int and sum them
+📌 Code:
+python
+Copy code
+n = 9875
+total = sum(int(d) for d in str(n))
+print(total)
+
+Method
+Time Taken (seconds)
+// and % (Math)
+0.65 seconds
+String Conversion
+0.87 seconds
+
+    • Use math method (//, %) when you care about speed and performance.
+    • Use string method when you want readability and ease of use, especially for small-scale or educational tasks.
+      
