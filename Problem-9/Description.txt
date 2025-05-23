@@ -1,0 +1,34 @@
+﻿🤔 What is Recursion?
+
+Recursion is a programming technique where a function calls itself to solve smaller instances of the same problem until it reaches a base case.
+🧒 Real-Life Example: Mirror Talking
+Imagine you're playing a game in front of a mirror:
+You say:
+“Hey mirror, ask the next mirror to say hello!”
+Now the next mirror repeats:
+“Hey mirror, ask the next mirror to say hello!”
+And this keeps going… until there’s no more mirror. Then the last one says:
+“Hello!”
+Each mirror asks the next mirror to do the same — just like a function calling itself!
+🔁 That’s Recursion!
+    • Each mirror = one function call
+    • Next mirror = smaller version of the same problem
+    • No more mirrors = base case
+
+🐍 Code Example: Count Down Using Recursion
+def countdown(n):
+    if n == 0:
+        print("Lift off!")  # Base case: stop here
+    else:
+        print(n)
+        countdown(n - 1)    # Recursive call: smaller problem
+
+countdown(5)
+Output:
+5
+4
+3
+2
+1
+Lift off!
+
