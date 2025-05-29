@@ -3,30 +3,62 @@
 
 This repository contains solutions to 11 beginner-level Python problems provided by **BongoDev** as part of their programming training curriculum.
 
-📘 Beginner Level Topics Covered:
+**📘 Topics Covered**
 
-🔤 String Manipulation
+**🔤 String Manipulation**
 
-• Reversing a string without slicing
+Reverse a string without slicing
 
-• Capitalizing the first letter of each word
+Capitalize the first letter of each word (without using .title())
 
-• Palindrome checking with normalization
+Check if a word is a palindrome (case-insensitive and space-insensitive)
 
-🔢 Mathematical Logic
+**🔢 Mathematical Logic**
 
-• Recursive factorial calculation
+Calculate factorial using recursion
 
-• Prime number detection (optimized with √n)
+Check if a number is prime (optimized with √n)
 
-• Summing digits of an integer (e.g., gamification logic)
+Sum the digits of a number
 
-📦 List & Sequence Processing
+**📦 List & Sequence Processing**
 
-• Flattening nested lists using recursion
+Flatten a nested list using recursion
 
-• Finding duplicates in a list
+Find duplicates in a list
 
-• Finding a missing number using arithmetic formula
-🔠 Text Analytics
-• Counting vowels for readability insights
+Find a missing number in a sequence using arithmetic series
+
+**🔠 Text Analytics**
+
+Count the number of vowels in a sentence
+
+**✅ Skills Practiced**
+
+Looping and conditionals
+
+Writing clean and modular functions
+
+Recursion fundamentals
+
+Basic problem-solving and algorithmic thinking
+
+**📂 Folder Structure**
+
+Each problem includes:
+
+problem.md – Problem description
+
+solution.py – Python solution
+
+explanation.md – Explanation of approach and logic used
+
+**🚀 Why This Set?**
+
+These problems are excellent for:
+
+Beginners preparing for coding interviews
+
+Students learning Python fundamentals
+
+Anyone revisiting core CS concepts
