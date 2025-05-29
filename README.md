@@ -4,8 +4,11 @@
 This repository contains solutions to 11 beginner-level Python problems provided by **BongoDev** as part of their programming training curriculum.
 
 📘 Beginner Level Topics Covered:
+
 🔤 String Manipulation
+
 • Reversing a string without slicing
+
 • Capitalizing the first letter of each word
 • Palindrome checking with normalization
 🔢 Mathematical Logic
